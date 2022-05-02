@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url(./reset.css);
+
+#wrap {width:100%;}
+
+#wrap #header {width:100%;height:100px;background:#f0f0f0;}
+#wrap #header .container {width:1200px;height:100px;background:#ffc;margin:0 auto;position:relative;}
+
+#wrap #header .container .sub-bg {display:none;background:#333;position:absolute;top:99px;left:0;z-index:1;width:100%;height:160px;}
+
+#wrap #header .container .wrap {width:100%;height:100px;display:flex;position:relative;z-index:2;}
+#wrap #header .container .wrap #logo {width:200px;height:100px;}
+#wrap #header .container .wrap #logo a {display:block;width:100%;height:40px;margin:30px 0;}
+#wrap #header .container .wrap #logo a img {width:100%;height:100%;}
+
+#wrap #header .container .wrap #nav {width:1000px;height:100px;}
+#wrap #header .container .wrap #nav > ul {width:700px;display:flex;margin:50px 0 0 auto;}
+#wrap #header .container .wrap #nav > ul > li {width:25%;}
+#wrap #header .container .wrap #nav > ul > li > a {display:block;width:100%;height:50px;background:#fff;color:#333;font-size:15px;font-weight:600;text-align:center;line-height:50px;border:1px solid #ccc;border-radius:5px 5px 0 0;transition:all .3s;}
+#wrap #header .container .wrap #nav > ul > li > a:hover {background:#333;color:#fff;}
+#wrap #header .container .wrap #nav > ul > li > a.on {background:#333;color:#fff;}
+
+#wrap #header .container .wrap #nav > ul > li > .sub {width:100%;display:none;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul {width:100%;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul li {width:100%;line-height:38px;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul li a {display:block;width:100%;height:100%;text-align:center;background:#333;color:#fff;transition:all .3s;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul li a:hover {background:#d0d0d0;color:#333;}
+
+#wrap #main {width:100%;}
+#wrap #main #section1 {width:100%;height:300px;}
+#wrap #main #section1 .container {width:1200px;height:300px;background-color:#fcc;margin:0 auto;}
+#wrap #main #section2 {width:100%;height:200px;}
+#wrap #main #section2 .container {width:1200px;height:200px;background-color:#cff;margin:0 auto;}
+
+#wrap #footer {width:100%;height:100px;background:#f0f0f0;}
+#wrap #footer .container {width:1200px;;height:100px;background:#ccf;margin:0 auto;}
